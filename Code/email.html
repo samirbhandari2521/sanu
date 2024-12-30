@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission without Page Reload</title>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form id="contactForm" action="https://formspree.io/f/xqaalyyl" method="POST">
+        <label>
+            Your email:
+            <input type="email" name="email" required>
+        </label>
+        <label>
+            Your message:
+            <textarea name="message" required></textarea>
+        </label>
+        <button type="submit">Send</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script>
+        // Select the form element
+        const form = document.getElementById('contactForm');
+        const messageDiv = document.getElementById('message');
+
+        // Add event listener to prevent form submission
+        form.addEventListener('submit', function(event) {
+           
+            
+
+
+            
+   
+        });
+    </script>
+</body>
+</html>
